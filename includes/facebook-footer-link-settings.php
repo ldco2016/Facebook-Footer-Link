@@ -38,7 +38,7 @@ function ffl_options_content(){
                    </tr>
 	           <tr>
 	             <th scope="row"><label for="ffl_settings[show_in_feed]"><?php _e('Show In Posts Feed', 'ffl_domain'); ?></label></th>
-		     <td><input name="ffl_settings[show_in_feed]" type="checkbox" id="ffl_settings[show_in_feed]" value="<?php checked('1', $ffl_options['show_in_feed']); ?>"></td>
+		     <td><input name="ffl_settings[show_in_feed]" type="checkbox" id="ffl_settings[show_in_feed]" value="1" <?php checked('1', $ffl_options['show_in_feed']); ?>></td>
                    </tr>
 		 </tbody>
  	       </table>
